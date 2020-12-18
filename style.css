@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header-area{
+    background: #e500ff;
+}
+
+.navbar img{
+    width: 120px;
+    height: 70px;
+}
+
+.navbar a{
+    color: aliceblue !important;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.navbar ul li .dropdown-menu{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown-menu{
+    display: block;
+    width: 250px;
+    transition: .4s;
+    transform: scale(1);
+}
+
+
+.navbar ul li .dropdown-menu a{
+    color: #222 !important;
+}
